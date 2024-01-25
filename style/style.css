@@ -42,6 +42,10 @@ body {
   width: 450px;
 }
 
+.container-hero .flexHero .img-mb {
+  display: none;
+}
+
 .container-hero .flexHero .gridText {
   display: grid;
   justify-content: center;
@@ -211,6 +215,9 @@ body {
 .container-guarante .flex img {
   width: 456px;
 }
+.container-guarante .flex .img-mb {
+  display: none;
+}
 
 .container-guarante .flex .text {
   max-width: 456px;
@@ -239,12 +246,64 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 32px;
 }
 .bg-shipping .icon {
   width: 128px;
   height: 128px;
 }
 
-.bg-shipping .icon .text {
+.bg-shipping .text p {
+  font-size: 28px;
+  color: #212529;
+}
+
+.bg-shipping .text span {
+  font-size: 16px;
+  color: #212529;
+}
+
+.container-60day {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 8px;
+}
+
+.container-60day .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.container-60day .flex .text {
+  width: 565px;
+}
+
+.container-60day .flex .text .title {
+  font-size: 37px;
+  color: #212529;
+}
+.container-60day .flex .text .subTitle {
+  font-size: 20px;
+  color: #212529;
+}
+
+.footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #212529;
+  color: #6c757d;
+  padding: 48px 12px;
+}
+
+.footer span {
+  width: 776px;
+  font-size: 10px;
 }
