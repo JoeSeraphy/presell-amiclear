@@ -1,0 +1,250 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: #3c7bbb;
+}
+
+.header .headerFlex {
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.header .headerFlex .button {
+  color: #212529;
+  background-color: #ffd200;
+  font-size: 32px;
+  padding: 10px 45px;
+  border-radius: 8px;
+}
+
+.container-hero {
+  background-color: #3c7bbb;
+}
+
+.container-hero .flexHero {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 8px;
+  gap: 16px;
+}
+
+.container-hero .flexHero img {
+  width: 450px;
+}
+
+.container-hero .flexHero .gridText {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-hero .flexHero .gridText img {
+  width: 400px;
+}
+
+.container-hero .flexHero .gridText .text .title {
+  font-size: 42px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.container-hero .flexHero .gridText .text .title .textYellow {
+  color: #ffd200;
+}
+
+.container-hero .flexHero .gridText .text .subTitle {
+  color: #fff;
+  font-size: 28px;
+
+  margin-bottom: 10px;
+}
+
+.container-hero .flexHero .gridText .button {
+  color: #212529;
+  background-color: #ffd200;
+  font-size: 32px;
+  padding: 10px 45px;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 285px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.container .text {
+  max-width: 1024px;
+  text-align: center;
+  width: 936px;
+  padding: 48px 0;
+  margin: 0 auto;
+}
+
+.container .text .title {
+  font-size: 28px;
+  font-weight: 400;
+}
+.container .text .subTitle {
+  font-size: 16px;
+}
+
+.container .imgText {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.container .imgText img {
+  border-radius: 50%;
+}
+
+.container .imgText p {
+  font-size: 20px;
+  color: #212529;
+  padding: 16px 0;
+  text-decoration: underline #3c7bbb;
+}
+
+.container-bonus {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-bonus .text {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.container-bonus .text .title {
+  font-size: 50px;
+  color: #212529;
+}
+
+.container-bonus .text .title .text-blue {
+  color: #3c7bbb;
+}
+.container-bonus .text .title .underline {
+  text-decoration: underline #ffd200;
+}
+
+.container-bonus .bonusFlex {
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 16px;
+}
+
+.container-bonus .bonusFlex .bonus {
+  border: 1px solid #3c7bbb;
+  border-radius: 16px;
+}
+
+.container-bonus .bonusFlex .bonus img {
+  width: 440px;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.container-bonus .bonusFlex .bonus .textBonus {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.container-bonus .bonusFlex .bonus .textBonus .title {
+  background-color: #3c7bbb;
+  color: #fff;
+  padding: 24px;
+  font-size: 32px;
+}
+
+.container-bonus .bonusFlex .bonus .textBonus .subTitle {
+  font-size: 24px;
+  color: #212529;
+  padding: 12px 0;
+}
+.container-bonus .bonusFlex .bonus .textBonus span {
+  font-size: 16px;
+}
+
+.container-guarante {
+  background-color: #3c7bbb;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+}
+
+.container-guarante .flex {
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 8px;
+  gap: 16px;
+}
+
+.container-guarante .flex img {
+  width: 456px;
+}
+
+.container-guarante .flex .text {
+  max-width: 456px;
+  color: #fff;
+}
+
+.container-guarante .flex .text .title {
+  font-size: 50px;
+}
+
+.container-guarante .flex .text .subTitle {
+  font-size: 28px;
+}
+
+.container-guarante .flex .text .button {
+  color: #212529;
+  background-color: #ffd200;
+  font-size: 32px;
+  padding: 10px 45px;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
+.bg-shipping {
+  background-color: #ffd200;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bg-shipping .icon {
+  width: 128px;
+  height: 128px;
+}
+
+.bg-shipping .icon .text {
+}
