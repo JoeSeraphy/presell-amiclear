@@ -264,6 +264,71 @@ body {
   color: #212529;
 }
 
+.testmonial {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0px;
+}
+
+.testmonial .title {
+  font-size: 38px;
+  font-weight: 600;
+  color: #212529;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.testmonial .test-collage {
+  width: 960px;
+  padding-bottom: 32px;
+}
+
+.testmonial .testmonial-person {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px 0px;
+  width: 960px;
+}
+
+.testmonial .testmonial-person .test-title {
+  font-size: 20px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+.testmonial .testmonial-person .flex-star {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0px;
+}
+
+.testmonial .testmonial-person .flex-star .star-text {
+  font-size: 16px;
+  color: #c78801;
+  font-weight: 600;
+}
+
+.testmonial .testmonial-person .testmonial-img {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #212529;
+  border-radius: 50%;
+}
+
+.testmonial .testmonial-person .test-text {
+  font-size: 16px;
+  color: #3b3b3b;
+}
+
+.testmonial .testmonial-person .test-text .quotes {
+  width: 26px;
+}
+
 .container-60day {
   max-width: 1024px;
   margin: 0 auto;
