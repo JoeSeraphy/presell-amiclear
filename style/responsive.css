@@ -1,3 +1,121 @@
+@media (max-width: 768px) {
+  .container-hero .flexHero {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container-hero .flexHero img {
+    display: none;
+  }
+  .container-hero .flexHero .img-mb {
+    display: block;
+    margin: 0 auto;
+    width: 417px;
+  }
+  .container-hero .flexHero .gridText .button {
+    font-size: 20px;
+  }
+
+  .container .imgText {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .container .text {
+    text-align: center;
+    margin: 0 auto;
+    width: 720px;
+  }
+
+  .container-bonus .bonusFlex {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .container-guarante .flex img {
+    display: none;
+  }
+
+  .container-guarante .flex .img-mb {
+    padding-top: 32px;
+    display: block;
+  }
+
+  .bg-shipping {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-shipping .icon {
+    margin: 0 auto;
+  }
+
+  .bg-shipping .text {
+    text-align: center;
+  }
+
+  .testmonial {
+    margin: 0 auto;
+  }
+
+  .testmonial .title {
+    margin: 0 auto;
+    width: 720px;
+  }
+
+  .testmonial .test-collage {
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testmonial .testmonial-person {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 96%;
+  }
+
+  .testmonial .testmonial-person .test-title {
+    text-align: center;
+  }
+  .testmonial .testmonial-person .flex-star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testmonial .testmonial-person .testmonial-img {
+    margin: 0 auto;
+  }
+
+  .container-60day .flex {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-60day img {
+    margin: 0 auto;
+  }
+
+  .container-60day .flex .text {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 425px) {
   .header .headerFlex .button {
     font-size: 16px;
@@ -22,12 +140,13 @@
   }
 
   .container .text {
-    width: 417px;
+    width: 375px;
     margin: 0 auto;
   }
 
   .container .text .title {
     font-size: 23px;
+    font-weight: 600;
   }
   .container .imgText {
     display: grid;
@@ -92,6 +211,26 @@
     font-size: 20px;
   }
 
+  .testmonial .title {
+    margin: 0 auto;
+    width: 375px;
+    font-size: 23px;
+  }
+
+  .testmonial .test-collage {
+    width: 375px;
+    margin: 0 auto;
+  }
+
+  .testmonial .testmonial-person {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 96%;
+  }
+
   .container-60day .flex {
     margin: 0 auto;
     display: grid;
@@ -102,6 +241,7 @@
   .container-60day .flex .text {
     width: 393px;
     text-align: center;
+    margin: 0 auto;
   }
   .container-60day .flex .text .title {
     font-size: 23px;
