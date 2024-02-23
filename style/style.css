@@ -22,6 +22,12 @@ body {
   font-size: 32px;
   padding: 10px 45px;
   border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+
+.header .headerFlex .button:hover {
+  background-color: #fadb51;
+  box-shadow: inset 0 0 10px #996400;
 }
 
 .container-hero {
@@ -81,8 +87,13 @@ body {
   padding: 10px 45px;
   border-radius: 8px;
   margin-top: 10px;
-  width: 285px;
   text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.container-hero .flexHero .gridText .button:hover {
+  background-color: #fadb51;
+  box-shadow: inset 0 0 10px #996400;
 }
 
 .container {
@@ -239,6 +250,12 @@ body {
   padding: 10px 45px;
   border-radius: 8px;
   margin-top: 32px;
+  transition: 0.3s ease-in-out;
+}
+
+.container-guarante .flex .text .button:hover {
+  background-color: #fadb51;
+  box-shadow: inset 0 0 10px #996400;
 }
 
 .bg-shipping {
