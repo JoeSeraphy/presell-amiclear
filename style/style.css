@@ -2,6 +2,27 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.safe {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.safe .safeSite {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.safe .title1 {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  color: #212529;
+  font-size: 32px;
+}
+
 .header {
   width: 100%;
   background-color: #3c7bbb;
